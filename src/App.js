@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import Navbar from "./components/Layouts/Navbar";
+import Footer from "./components/Layouts/Footer";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 1800,
+            easing: "ease-in-out",
+            disable: "mobile",
+            mirror: true,
+        });
+    }, []);
+
+    return (
+        <div className='flex-grow max-w-7xl mx-auto '>
+            <Navbar />
+            <Hero />
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
+};
 
 export default App;
