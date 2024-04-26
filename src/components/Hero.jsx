@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section>
             <div
-                className=' min-h-[calc(100vh-64px)] grid grid-cols-1 md:grid-cols-2 font-playfair overflow-hidden bg-slate-200'
+                className=' min-h-[calc(100vh-64px)] grid grid-cols-1 md:grid-cols-2 font-playfair overflow-hidden md:bg-slate-200'
                 id='#top'>
                 <div
                     className='flex flex-col justify-center items-start pl-2 md:px-8 order-2 md:order-1'
