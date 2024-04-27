@@ -21,7 +21,7 @@ export const experienceItems = [
         ],
     },
     {
-        company: "HSBC Leeds",
+        company: "HSBC Leeds (Contract)",
         year: "2022-2023",
         title: "Frontend Engineer/Developer",
         jobRoles: [

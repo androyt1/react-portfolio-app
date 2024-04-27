@@ -12,15 +12,18 @@ const Hero = () => {
                     {/* <h1 className='text-4xl' data-aos='slide-down' data-aos-delay='1200'>
                         👋{" "}
                     </h1> */}
-                    <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase text-[#364d55] '>
+                    <h1
+                        className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase text-[#364d55] mt-6 md:mt-10'
+                        data-aos='slide-down'
+                        data-aos-delay='1200'>
                         Andrew
                         <br /> Aghoghovwia
                     </h1>
-                    <p className='mt-2 md:mt-4 text-slate-500 text-xl'>
+                    <p className='mt-6 lg:mt-8 text-slate-500 font-normal lg:text-xl'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         <br /> Totam repudiandae expedita ipsam quibusdam eligendi
                     </p>
-                    <div className='flex flex-col md:flex-row justify-start items-center mt-4 md:mt-8 w-full gap-2'>
+                    <div className='flex flex-col md:flex-row justify-start items-center mt-6 md:mt-10 w-full gap-x-8 gap-y-4'>
                         <button className='px-8 py-2 border bg-[#121318] text-slate-50 w-[90%] md:w-[40%] rounded-lg '>
                             Download Cv
                         </button>
@@ -31,10 +34,10 @@ const Hero = () => {
                 </div>
                 <div className=' h-full flex justify-start  items-center relative overflow-hidden order-1 md:order-2 bg-white'>
                     <div
-                        className='absolute right-0 top-0 w-[20%] bg-[#7BA2AD]  h-full  flex justify-center items-center z-40 '
+                        className=' absolute right-0 top-0  w-[10%] md:w-[20%] bg-[#7BA2AD]  h-full  flex justify-center items-center z-40 '
                         data-aos='slide-up'
                         data-aos-delay='1800'>
-                        <h1 className='rotate-90 text-3xl lg:text-5xl font-semibold'>
+                        <h1 className='rotate-90 text-xl lg:text-3xl font-semibold'>
                             +4478021460751
                         </h1>
                     </div>

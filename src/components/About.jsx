@@ -6,7 +6,7 @@ import { FaHtml5 } from "react-icons/fa";
 const About = () => {
     return (
         <section id='about' className='font-poppins'>
-            <div className='px-2 min-h-screen pt-[70px] w-full '>
+            <div className='px-3 min-h-screen pt-[70px] w-full '>
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:gap-20'>
                     <div>
                         <h3
@@ -14,7 +14,7 @@ const About = () => {
                             data-aos='slide-up'>
                             Who I Am
                         </h3>
-                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
+                        <p className='text-slate-700  mt-6 md:mt-8' data-aos='slide-up'>
                             Hello there! I'm{" "}
                             <span className='font-semibold'> Aghoghovwia Andrew</span>, a seasoned
                             web developer with{" "}
@@ -22,7 +22,7 @@ const About = () => {
                             experience in crafting intuitive and dynamic frontend and fullstack web
                             applications.
                         </p>
-                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 md:mt-8' data-aos='slide-up'>
                             From conceptualization to deployment, I thrive on bringing ideas to life
                             through clean, efficient code and user-centric design. My journey began
                             with a passion for problem-solving and a curiosity for the ever-evolving
@@ -30,11 +30,11 @@ const About = () => {
                             crafting seamless user experiences and scalable solutions that drive
                             meaningful results.
                         </p>
-                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='slide-up'>
                             My toolbox includes a wide array of technologies, with a strong emphasis
                             on:
-                            <ul className='md:mt-4 lg:mt-6' data-aos='slide-up'>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
+                            <ul className='mt-6 lg:mt-8 space-y-8' data-aos='slide-up'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4 '>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -52,7 +52,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </li>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4  '>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -70,7 +70,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </li>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4 '>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -87,7 +87,7 @@ const About = () => {
                             </ul>
                         </p>
 
-                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='slide-up'>
                             Beyond technical prowess, I'm deeply committed to collaboration and
                             continuous learning. I thrive in dynamic, cross-functional teams where
                             knowledge sharing and innovation are encouraged. Whether it's diving
@@ -98,7 +98,7 @@ const About = () => {
                     <div>
                         <img src='/developer.svg' alt='' className='my-10' data-aos='slide-up' />
                         <h3
-                            className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'
+                            className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 lg:pt-8 text-[#364D55]'
                             data-aos='slide-up'>
                             Skills
                         </h3>
