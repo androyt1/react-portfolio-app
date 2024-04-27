@@ -15,7 +15,7 @@ const App = () => {
             duration: 1800,
             easing: "ease-in-out",
             disable: "mobile",
-            once: true,
+            once: false,
             mirror: true,
         });
     }, []);

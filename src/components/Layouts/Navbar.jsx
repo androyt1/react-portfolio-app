@@ -17,9 +17,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header
-                className='h-16  flex items-center justify-between px-2 sticky top-0 z-50 bg-[#7BA2AD] font-poppins'
-                data-aos='slide-down'>
+            <header className='h-16  flex items-center justify-between px-2 sticky top-0 z-50 bg-[#7BA2AD] font-poppins'>
                 <div>
                     <a
                         href='#top'

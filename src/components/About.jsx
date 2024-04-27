@@ -5,16 +5,16 @@ import { FaHtml5 } from "react-icons/fa";
 
 const About = () => {
     return (
-        <section id='about' className='font-poppins'>
+        <section id='about' className='font-poppins text-base font-normal'>
             <div className='px-3 min-h-screen pt-[70px] w-full '>
                 <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:gap-20'>
                     <div>
                         <h3
                             className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'
-                            data-aos='slide-up'>
+                            data-aos='fade-up'>
                             Who I Am
                         </h3>
-                        <p className='text-slate-700  mt-6 md:mt-8' data-aos='slide-up'>
+                        <p className='text-slate-700  mt-6 md:mt-8' data-aos='fade-up'>
                             Hello there! I'm{" "}
                             <span className='font-semibold'> Aghoghovwia Andrew</span>, a seasoned
                             web developer with{" "}
@@ -22,7 +22,7 @@ const About = () => {
                             experience in crafting intuitive and dynamic frontend and fullstack web
                             applications.
                         </p>
-                        <p className='text-slate-700 mt-6 md:mt-8' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 md:mt-8' data-aos='fade-up'>
                             From conceptualization to deployment, I thrive on bringing ideas to life
                             through clean, efficient code and user-centric design. My journey began
                             with a passion for problem-solving and a curiosity for the ever-evolving
@@ -30,10 +30,10 @@ const About = () => {
                             crafting seamless user experiences and scalable solutions that drive
                             meaningful results.
                         </p>
-                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='fade-up'>
                             My toolbox includes a wide array of technologies, with a strong emphasis
                             on:
-                            <ul className='mt-6 lg:mt-8 space-y-8' data-aos='slide-up'>
+                            <ul className='mt-6 lg:mt-8 space-y-8' data-aos='fade-up'>
                                 <li className='flex items-start gap-x-2 md:gap-x-4 '>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
@@ -87,7 +87,7 @@ const About = () => {
                             </ul>
                         </p>
 
-                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='slide-up'>
+                        <p className='text-slate-700 mt-6 lg:mt-8' data-aos='fade-up'>
                             Beyond technical prowess, I'm deeply committed to collaboration and
                             continuous learning. I thrive in dynamic, cross-functional teams where
                             knowledge sharing and innovation are encouraged. Whether it's diving
@@ -96,18 +96,18 @@ const About = () => {
                         </p>
                     </div>
                     <div>
-                        <img src='/developer.svg' alt='' className='my-10' data-aos='slide-up' />
+                        <img src='/developer.svg' alt='' className='my-10' data-aos='fade-up' />
                         <h3
                             className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 lg:pt-8 text-[#364D55]'
-                            data-aos='slide-up'>
+                            data-aos='fade-up'>
                             Skills
                         </h3>
-                        <p className='mt-4' data-aos='slide-up'>
+                        <p className='mt-4' data-aos='fade-up'>
                             Some of my top Skills include:
                         </p>
                         <div
                             className='grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mt-6 gap-4'
-                            data-aos='slide-up'>
+                            data-aos='fade-up'>
                             <Skill>
                                 HTML <FaHtml5 className='text-xl' />
                             </Skill>
