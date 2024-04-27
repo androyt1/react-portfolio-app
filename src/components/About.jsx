@@ -1,20 +1,20 @@
 import React from "react";
 import { TiTick } from "react-icons/ti";
+import Skill from "./Layouts/Skill";
+import { FaHtml5 } from "react-icons/fa";
 
 const About = () => {
     return (
-        <section id='about' className='font-playfair'>
-            <div className='px-2 min-h-screen pt-[70px] w-full'>
-                <h1 className='text-3xl md:text-4xl lg:text-5xl font-semibold pt-6 text-[#364D55]'>
-                    About Me
-                </h1>
-
-                <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:gap-10'>
+        <section id='about' className='font-poppins'>
+            <div className='px-2 min-h-screen pt-[70px] w-full '>
+                <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:gap-20'>
                     <div>
-                        <h3 className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'>
-                            Who Am I
+                        <h3
+                            className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'
+                            data-aos='slide-up'>
+                            Who I Am
                         </h3>
-                        <p className='text-slate-700 mt-2'>
+                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
                             Hello there! I'm{" "}
                             <span className='font-semibold'> Aghoghovwia Andrew</span>, a seasoned
                             web developer with{" "}
@@ -22,7 +22,7 @@ const About = () => {
                             experience in crafting intuitive and dynamic frontend and fullstack web
                             applications.
                         </p>
-                        <p className='text-slate-700 mt-2'>
+                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
                             From conceptualization to deployment, I thrive on bringing ideas to life
                             through clean, efficient code and user-centric design. My journey began
                             with a passion for problem-solving and a curiosity for the ever-evolving
@@ -30,11 +30,11 @@ const About = () => {
                             crafting seamless user experiences and scalable solutions that drive
                             meaningful results.
                         </p>
-                        <p className='text-slate-700 mt-2'>
+                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
                             My toolbox includes a wide array of technologies, with a strong emphasis
                             on:
-                            <ul>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2'>
+                            <ul className='md:mt-4 lg:mt-6' data-aos='slide-up'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -52,7 +52,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </li>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -70,7 +70,7 @@ const About = () => {
                                         </p>
                                     </div>
                                 </li>
-                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2'>
+                                <li className='flex items-start gap-x-2 md:gap-x-4 mt-2 md:mt-3 lg:mt-4'>
                                     <div className='ml-1 lg:ml-3 flex items-start justify-start bg-slate-200'>
                                         <TiTick className='text-xl md:text-3xl' />
                                     </div>
@@ -87,7 +87,7 @@ const About = () => {
                             </ul>
                         </p>
 
-                        <p className='text-slate-700 mt-2'>
+                        <p className='text-slate-700 mt-2 md:mt-4 lg:mt-6' data-aos='slide-up'>
                             Beyond technical prowess, I'm deeply committed to collaboration and
                             continuous learning. I thrive in dynamic, cross-functional teams where
                             knowledge sharing and innovation are encouraged. Whether it's diving
@@ -96,14 +96,21 @@ const About = () => {
                         </p>
                     </div>
                     <div>
-                        <h3 className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'>
+                        <img src='/developer.svg' alt='' className='my-10' data-aos='slide-up' />
+                        <h3
+                            className='text-2xl md:text-3xl lg:text-3xl font-semibold pt-6 text-[#364D55]'
+                            data-aos='slide-up'>
                             Skills
                         </h3>
-                        <p>Some of my top Skills include:</p>
-                        <div className='grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mt-6 gap-4'>
-                            <div className='px-6 py-3 border shadow-md rounded-md flex justify-center items-center font-semibold'>
-                                HTML
-                            </div>
+                        <p className='mt-4' data-aos='slide-up'>
+                            Some of my top Skills include:
+                        </p>
+                        <div
+                            className='grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 mt-6 gap-4'
+                            data-aos='slide-up'>
+                            <Skill>
+                                HTML <FaHtml5 className='text-xl' />
+                            </Skill>
                             <div className='px-6 py-3 border shadow-md rounded-md flex justify-center items-center font-semibold'>
                                 CSS
                             </div>
@@ -145,6 +152,9 @@ const About = () => {
                             </div>
                             <div className='px-6 py-3 border shadow-md rounded-md flex justify-center items-center font-semibold'>
                                 DOCKER
+                            </div>
+                            <div className='px-6 py-3 border shadow-md rounded-md flex justify-center items-center font-semibold'>
+                                WEBPACK
                             </div>
                         </div>
                     </div>

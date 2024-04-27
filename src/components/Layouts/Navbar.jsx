@@ -18,10 +18,13 @@ const Navbar = () => {
     return (
         <>
             <header
-                className='h-16  flex items-center justify-between px-2 sticky top-0 z-50 bg-[#7BA2AD] font-playfair'
+                className='h-16  flex items-center justify-between px-2 sticky top-0 z-50 bg-[#7BA2AD] font-poppins'
                 data-aos='slide-down'>
                 <div>
-                    <a href='#top' className='font-semibold text-2xl font-vibes' onClick={closeNav}>
+                    <a
+                        href='#top'
+                        className='font-semibold text-2xl font-sacramento'
+                        onClick={closeNav}>
                         Androyt1
                     </a>
                 </div>

@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section>
             <div
-                className=' min-h-[calc(100vh-64px)] grid grid-cols-1 md:grid-cols-2 font-playfair overflow-hidden md:bg-slate-200'
+                className=' min-h-[calc(100vh-64px)] grid grid-cols-1 md:grid-cols-2 font-poppins overflow-hidden md:bg-slate-200'
                 id='#top'>
                 <div
                     className='flex flex-col justify-center items-start pl-2 md:px-8 order-2 md:order-1'
@@ -16,15 +16,15 @@ const Hero = () => {
                         Andrew
                         <br /> Aghoghovwia
                     </h1>
-                    <p className='mt-2 md:mt-4 text-slate-500 '>
+                    <p className='mt-2 md:mt-4 text-slate-500 text-xl'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         <br /> Totam repudiandae expedita ipsam quibusdam eligendi
                     </p>
                     <div className='flex flex-col md:flex-row justify-start items-center mt-4 md:mt-8 w-full gap-2'>
-                        <button className='px-8 py-2 border bg-[#121318] text-slate-50 w-[90%] md:w-[40%] rounded-lg'>
+                        <button className='px-8 py-2 border bg-[#121318] text-slate-50 w-[90%] md:w-[40%] rounded-lg '>
                             Download Cv
                         </button>
-                        <button className='px-8 py-2 border bg-[#7BA2AD] text-slate-50 w-[90%] md:w-[40%] rounded-lg'>
+                        <button className='px-8 py-2 border bg-[#7BA2AD] text-slate-50 w-[90%] md:w-[40%] rounded-lg '>
                             Projects
                         </button>
                     </div>

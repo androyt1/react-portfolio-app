@@ -4,8 +4,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                vibes: ["Great Vibes", "cursive"],
-                playfair: ["Playfair Display", "serif;"],
+                poppins: ["Poppins", "sans-serif"],
+                sacramento: ["Sacramento", "cursive"],
             },
         },
     },
