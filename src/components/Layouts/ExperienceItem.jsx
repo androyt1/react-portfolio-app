@@ -7,7 +7,7 @@ const ExperienceItem = ({ company, year, title, jobRoles }) => {
             data-aos='fade-up'
             data-aos-delay='1000'>
             {/* <div className='h-3 w-3 rounded-full bg-slate-700 text-white'></div> */}
-            <div className='h-10 md:h-20 w-[2px] bg-[#7BA2AD]'></div>
+            <div className='h-20 w-[2px] bg-[#7BA2AD]'></div>
             <div className='border shadow-md p-2 md:p-4 roundedd-md bg-slate-500/10'>
                 <div className='flex justify-between items-center border-b-2 border-b-slate-400/50 p-2 bg-white'>
                     <h4 className='font-semibold'>{company}</h4>

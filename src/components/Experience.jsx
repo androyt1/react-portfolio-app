@@ -13,7 +13,7 @@ const Experience = () => {
                 </h3>
 
                 <div
-                    className='w-16 h-8 bg-slate-700 text-white mx-auto flex justify-center items-center rounded-md'
+                    className='w-16 h-8 mt-16 bg-slate-700 text-white mx-auto flex justify-center items-center rounded-md'
                     data-aos='fade-up'
                     data-aos-delay='500'>
                     Start

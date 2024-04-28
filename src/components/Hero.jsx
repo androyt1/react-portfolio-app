@@ -12,7 +12,7 @@ const Hero = () => {
                         👋{" "}
                     </h1> */}
                     <h1
-                        className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold uppercase text-[#364d55] mt-4 md:mt-10'
+                        className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold uppercase text-[#364d55] mt-8 md:mt-10'
                         data-aos='fade-up'>
                         Andrew
                         <br /> Aghoghovwia
@@ -38,10 +38,9 @@ const Hero = () => {
                         <Button text='Projects' />
                     </div>
                 </div>
-                <div className=' h-full flex justify-start  items-center relative overflow-hidden order-1 md:order-2 bg-white'>
+                <div className=' h-full flex flex-col items-start  justify-start relative overflow-hidden order-1 md:order-2 bg-white'>
                     <div
-                        className=' absolute right-0 top-0  w-[10%]  bg-[#7BA2AD]  h-full  flex justify-center items-center z-40 '
-                        data-aos='slide-up'
+                        className=' absolute right-0 top-1  w-[10%]  bg-[#7BA2AD]  h-full  flex justify-center items-center z-40 '
                         data-aos-delay='1800'>
                         <h1 className='rotate-90 text-xl  font-normal'>+4478021460751</h1>
                     </div>
@@ -51,6 +50,7 @@ const Hero = () => {
                         className='w-[90%] h-auto object-cover z-20'
                         data-aos='fade-left'
                     />
+                    <div className='absolute bottom-0 left-0 w-full  h-[5%] bg-[#7BA2AD]'></div>
                 </div>
             </div>
         </section>
