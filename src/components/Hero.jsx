@@ -38,7 +38,7 @@ const Hero = () => {
                         <Button text='Projects' />
                     </div>
                 </div>
-                <div className=' h-full flex flex-col items-start  justify-start relative overflow-hidden order-1 md:order-2 bg-white'>
+                <div className=' h-full flex flex-col items-start  justify-end relative overflow-hidden order-1 md:order-2 bg-white'>
                     <div
                         className=' absolute right-0 top-1  w-[10%]  bg-[#7BA2AD]  h-full  flex justify-center items-center z-40 '
                         data-aos-delay='1800'>
