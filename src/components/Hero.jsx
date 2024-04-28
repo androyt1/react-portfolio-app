@@ -12,13 +12,13 @@ const Hero = () => {
                         👋{" "}
                     </h1> */}
                     <h1
-                        className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold uppercase text-[#364d55] mt-6 md:mt-10'
+                        className='text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold uppercase text-[#364d55] mt-4 md:mt-10'
                         data-aos='fade-up'>
                         Andrew
                         <br /> Aghoghovwia
                     </h1>
                     <p
-                        className='mt-6 lg:mt-8 text-slate-500 font-normal text-base lg:text-xl'
+                        className='mt-4 lg:mt-8 text-slate-500 font-normal text-base lg:text-xl'
                         data-aos='fade-up'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         <br /> Totam repudiandae expedita ipsam quibusdam eligendi

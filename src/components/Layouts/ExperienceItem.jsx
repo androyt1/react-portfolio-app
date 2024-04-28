@@ -4,7 +4,8 @@ const ExperienceItem = ({ company, year, title, jobRoles }) => {
     return (
         <div
             className='flex flex-col justify-start items-center text-[16px] md:text-[18px]  '
-            data-aos='fade-up'>
+            data-aos='fade-up'
+            data-aos-delay='1000'>
             {/* <div className='h-3 w-3 rounded-full bg-slate-700 text-white'></div> */}
             <div className='h-10 md:h-20 w-[2px] bg-[#7BA2AD]'></div>
             <div className='border shadow-md p-2 md:p-4 roundedd-md bg-slate-500/10'>
