@@ -47,7 +47,7 @@ const Hero = () => {
                     <img
                         src='/androy.png'
                         alt=''
-                        className='w-[90%] h-auto object-cover z-20'
+                        className='w-auto h-full object-cover z-20'
                         data-aos='fade-left'
                     />
                     <div className='absolute bottom-0 left-0 w-full  h-[5%] bg-[#7BA2AD]'></div>
